@@ -10,14 +10,44 @@ SWAGGER: http://localhost:8080/swagger-ui.html
 GET: http://localhost:8080/api/todo
  - lista todas as tarefas.
  
+GET: http://localhost:8080/api/todo/1
+ - lista taref por Id.
+ 
 POST: http://localhost:8080/api/todo
-  - Cadastra uma nova tarefa.
+ - Cadastra uma nova tarefa.
+  
+  Exemplo de Body:  
+   {
+      "nome_tarefa":"Nova tarefa",
+      "desc_tarefa":"Nova tarefa de teste",
+      "status":"pending"
+    }
+ 
   
 PUT: http://localhost:8080/api/todo
  - Atualiza uma tarefa.
+  
+  Exemplo de Body:  
+   {  
+      "id_terefa": 1,
+      "nome_tarefa":"Nova tarefa1",
+      "desc_tarefa":"Nova tarefa de teste1",
+      "status":"completed"
+    }
  
-DELETE: http://localhost:8080/api/todo
-  - Deleta uma tarefa.
+ DELETE: http://localhost:8080/api/todo/1
+  - Deleta uma tarefa por id.
+  
+ DELETE: http://localhost:8080/api/todo
+  - Deleta uma tarefa. 
+ 
+  Exemplo de Body:  
+   {  
+      "id_terefa": 1,
+      "nome_tarefa":"Nova tarefa1",
+      "desc_tarefa":"Nova tarefa de teste1",
+      "status":"completed"
+    }
   
  GET: http://localhost:8080/api/todo/pending
    - Lista as tarefas pendidas.
