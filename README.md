@@ -5,9 +5,10 @@ API REST FULL desenvolvida com o intuito de cadastrar, atualizar, listar e apaga
 Exemplos de requisição:
 
 SWAGGER: http://localhost:8080/swagger-ui.html
+  - Documentação de cada metodo.
 
 GET: http://localhost:8080/api/todo
- - lista todas a tarefas.
+ - lista todas as tarefas.
  
 POST: http://localhost:8080/api/todo
   - Cadastra uma nova tarefa.
@@ -22,4 +23,4 @@ DELETE: http://localhost:8080/api/todo
    - Lista as tarefas pendidas.
    
  GET: http://localhost:8080/api/todo/completed
-   - Lista as tarefas comcluidas.
+   - Lista as tarefas concluídas.
