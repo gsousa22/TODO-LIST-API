@@ -4,6 +4,8 @@ API REST FULL desenvolvida com o intuito de cadastrar, atualizar, listar e apaga
 
 Exemplos de requisição:
 
+SWAGGER: http://localhost:8080/swagger-ui.html
+
 GET: http://localhost:8080/api/todo
  - lista todas a tarefas.
  
