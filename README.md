@@ -42,7 +42,7 @@ PUT: http://localhost:8080/api/todo
   - Deleta uma tarefa. 
  
   Exemplo de Body:  
-   {  
+   {
       "id_terefa": 1,
       "nome_tarefa":"Nova tarefa1",
       "desc_tarefa":"Nova tarefa de teste1",
