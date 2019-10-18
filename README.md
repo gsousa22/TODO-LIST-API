@@ -1,6 +1,6 @@
 # TODO-LIST-API
-
-API REST FULL desenvolvida com o intuito de cadastrar, atualizar, listar e apagar tarefas.
+A
+API REST FULL desenvolvida com o framework Spring Boot 2.2.0 junto com as ferramentas Java Persistence API(JPA), Spring Boot Actuator e SWAGGER para a documentação e melhor intendimeno da funcionalidades com o intuito de cadastrar, atualizar, listar e apagar tarefas.
 
 Exemplos de requisição:
 
