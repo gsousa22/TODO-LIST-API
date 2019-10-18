@@ -21,14 +21,14 @@ POST: http://localhost:8080/api/todo
       "nome_tarefa":"Nova tarefa",
       "desc_tarefa":"Nova tarefa de teste",
       "status":"pending"
-    }
+   }
  
   
 PUT: http://localhost:8080/api/todo
  - Atualiza uma tarefa.
   
   Exemplo de Body:  
-   {  
+   {
       "id_terefa": 1,
       "nome_tarefa":"Nova tarefa1",
       "desc_tarefa":"Nova tarefa de teste1",
